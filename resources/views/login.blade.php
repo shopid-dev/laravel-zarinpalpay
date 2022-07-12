@@ -4,9 +4,9 @@
     <div style="text-align:center;">   
 <h1>ورود کاربر </h1>
 <form method="POST">
-<input name="email" value="behnam@shopid.ir" type="email" placeholder="email">
+<input name="email" value="" type="email" placeholder="email">
 <br>
-<input name="password" value="123456" type="password" placeholder="password"><br>
+<input name="password" value="" type="password" placeholder="password"><br>
 <input type="submit" value="login"><br>
 <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
 
